@@ -5,7 +5,7 @@ T="$(cd "$(dirname "$0")/.." && pwd)"; cd "$T"
 O=cms_upload
 rm -rf "$O"; mkdir -p "$O/attachments"
 statement/build_pdf.sh
-cp statement/statement.pdf "$O/statement.pdf"
+cp statement/statement.pdf statement/statement-fa.pdf "$O/"
 (cd tests && zip -q -X -9 "$T/$O/tests.zip" *.in *.out)
 for i in 1 2 3; do
   cp "tests/00-0$i.in" "$O/attachments/sample-0$i.in"

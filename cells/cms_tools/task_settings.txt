@@ -5,7 +5,9 @@ CMS ADMIN PANEL VALUES — task "cells"
 Name (short name / code) ......... cells
 Title ............................ Cells Blocking
 Submission format ................ cells.%l
-Statement language code .......... en          (file: statement.pdf)
+Statement #1 language code ....... fa          (file: statement-fa.pdf, Persian)
+Statement #2 language code ....... en          (file: statement.pdf, English)
+Primary statements ............... ["fa"]      (or ["fa", "en"] to show both by default)
 Attachments ...................... sample-01.in sample-01.out sample-02.in sample-02.out sample-03.in sample-03.out
 Score mode (CMS >= 1.5) .......... Use best among submissions, per subtask (max_subtask, IOI style)
 Feedback level (CMS >= 1.5) ...... Restricted   (or Full if you want contestants to see per-test details)

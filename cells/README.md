@@ -5,6 +5,7 @@ Source: 300iq Petrozavodsk Contest III (Winter 2020), problem C.
 * Limits: **3 s**, **512 MiB**, stdin/stdout, `1 ≤ n, m ≤ 3000` (as in the original statement).
 * The answer is unique → whitespace-insensitive comparison (`checker/checker.cpp` for TPS;
   CMS uses its built-in white-diff, no checker uploaded).
+* Statements: `statement/statement.md` (English) and `statement/statement-fa.md` (Persian, font Vazirmatn under OFL in `statement/fonts/`); PDFs via `statement/build_pdf.sh`.
 * CMS package: `cms_upload/` (rebuild with `cms_tools/make_cms_package.sh` after `tps gen`).
 * Persian click-by-click upload guide: `CMS_UPLOAD_GUIDE.md`.
 
