@@ -1,0 +1,12 @@
+{
+    "name": "cells",
+    "code": "cells",
+    "title": "Cells Blocking",
+    "type": "Batch",
+    "has_grader": false,
+    "java_enabled": false,
+    "python_enabled": false,
+    "time_limit": 3.0,
+    "memory_limit": 512,
+    "description": "Count pairs of cells whose blocking disconnects (1,1) from (n,m) in a grid with right/down moves"
+}

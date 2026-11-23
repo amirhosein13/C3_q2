@@ -1,0 +1,115 @@
+# gen <type> <n> <m> <a> <b> <corner> [tag]
+# corner: 1 = block (1,1), 2 = block (n,m), 3 = both, 4 = force both corners free
+
+@subtask samples
+manual sample-1.in
+manual sample-2.in
+manual sample-3.in
+
+@subtask allfree
+gen free 1 1 0 0 0
+gen free 1 2 0 0 0
+gen free 2 1 0 0 0
+gen free 2 2 0 0 0
+gen free 1 3000 0 0 0
+gen free 3000 1 0 0 0
+gen free 2 3000 0 0 0
+gen free 3000 2 0 0 0
+gen free 2 9 0 0 0
+gen free 3 3000 0 0 0
+gen free 777 1234 0 0 0
+gen free 3000 2999 0 0 0
+gen free 3000 3000 0 0 0
+
+@subtask n15
+@include samples
+gen rand 1 1 1000 0 0
+gen free 1 1 0 0 0
+gen free 1 15 0 0 0
+gen free 2 15 0 0 0
+gen free 15 2 0 0 0
+gen free 15 15 0 0 0
+gen rand 1 15 100 0 0
+gen rand 15 1 0 0 1
+gen rand 2 15 100 0 0 a
+gen rand 15 15 50 0 0 a
+gen rand 15 15 150 0 4 b
+gen rand 15 15 250 0 4 c
+gen rand 14 15 300 0 0 d
+gen rand 15 15 100 0 1 e
+gen rand 15 15 100 0 2 f
+gen rand 15 13 30 0 3 g
+gen thick 15 15 1 3 0 a
+gen thick 15 15 2 2 0 b
+gen thickn 15 15 1 300 0 a
+gen thickn 12 15 1 500 0 b
+gen paths 15 15 2 -1 0 a
+gen paths 15 15 4 -1 0 b
+gen ring 15 15 0 0 0
+gen ring 15 15 300 0 0
+gen ladder 15 15 1 100 0
+gen ladder 10 15 2 200 0
+
+@subtask n50
+@include n15
+gen free 50 50 0 0 0
+gen free 2 50 0 0 0
+gen rand 50 50 30 0 0 a
+gen rand 50 50 150 0 4 b
+gen rand 50 50 250 0 4 c
+gen rand 50 50 280 0 4 d
+gen rand 50 37 100 0 1 e
+gen rand 50 50 100 0 2 f
+gen thick 50 50 1 4 0 a
+gen thick 50 50 2 3 0 b
+gen thickn 50 50 1 400 0 a
+gen thickn 50 50 2 600 0 b
+gen paths 50 50 3 -1 0 a
+gen paths 50 50 8 -1 0 b
+gen ring 50 50 0 0 0
+gen ring 50 50 600 0 0
+gen ladder 50 50 1 150 0
+gen ladder 30 50 3 250 0
+
+@subtask n300
+@include n50
+gen free 300 300 0 0 0
+gen free 300 300 0 0 1
+gen free 2 300 0 0 0
+gen rand 300 300 20 0 0 a
+gen rand 300 300 100 0 4 b
+gen rand 300 300 200 0 4 c
+gen rand 300 300 270 0 4 d
+gen rand 300 300 50 0 1 e
+gen rand 300 300 50 0 2 f
+gen rand 300 300 600 0 0 g
+gen thick 300 300 2 5 0 a
+gen thickn 300 300 1 500 0 a
+gen thickn 300 300 3 800 0 b
+gen paths 300 300 5 -1 0 a
+gen paths 300 300 40 -1 0 b
+gen ring 300 300 0 0 0
+gen ring 300 300 850 0 0
+gen ladder 300 300 1 100 0
+gen ladder 300 200 4 200 0
+
+@subtask full
+@include allfree n300
+gen free 3000 3000 0 0 3
+gen rand 3000 3000 20 0 4 a
+gen rand 3000 3000 150 0 4 b
+gen rand 3000 3000 250 0 4 c3
+gen rand 3000 3000 280 0 4 d
+gen rand 3000 3000 290 0 4 i
+gen rand 3000 3000 100 0 1 e
+gen rand 3000 3000 400 0 0 f
+gen thick 3000 3000 2 6 0 a
+gen thickn 3000 3000 2 700 0 a
+gen thickn 3000 3000 3 300 0 b
+gen paths 3000 3000 30 -1 0 a
+gen paths 3000 3000 300 -1 0 b
+gen ring 3000 3000 0 0 0
+gen ring 3000 3000 950 0 0
+gen ladder 3000 3000 2 150 0
+gen rand 3000 500 150 0 4 h
+gen thickn 400 3000 2 500 0 c

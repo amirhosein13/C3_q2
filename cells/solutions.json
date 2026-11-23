@@ -1,0 +1,33 @@
+{
+    "model.cpp": {"verdict": "model_solution"},
+    "correct_path.cpp": {"verdict": "correct"},
+    "brute.cpp": {
+        "verdict": "time_limit",
+        "except": {"samples": "correct", "n15": "correct"}
+    },
+    "sub1_formula.cpp": {
+        "verdict": "incorrect",
+        "except": {"allfree": "correct"}
+    },
+    "sub3_fixany.cpp": {
+        "verdict": "time_limit",
+        "except": {"samples": "correct", "n15": "correct", "n50": "correct"}
+    },
+    "sub4_fixleft.cpp": {
+        "verdict": "time_limit",
+        "except": {"samples": "correct", "n15": "correct", "n50": "correct", "n300": "correct"}
+    },
+    "wrong_int.cpp": {
+        "verdict": "incorrect",
+        "except": {"samples": "correct", "allfree": "correct", "n15": "correct", "n50": "correct"}
+    },
+    "wrong_doublecount.cpp": {"verdict": "incorrect"},
+    "wrong_corner.cpp": {
+        "verdict": "incorrect",
+        "except": {"samples": "correct", "allfree": "correct"}
+    },
+    "wrong_samediag.cpp": {
+        "verdict": "incorrect",
+        "except": {"samples": "correct"}
+    }
+}
