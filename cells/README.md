@@ -8,6 +8,7 @@ Source: 300iq Petrozavodsk Contest III (Winter 2020), problem C.
 * Statements: `statement/statement.md` (English) and `statement/statement-fa.md` (Persian, font Vazirmatn under OFL in `statement/fonts/`); PDFs via `statement/build_pdf.sh`.
 * CMS package: `cms_upload/` (rebuild with `cms_tools/make_cms_package.sh` after `tps gen`).
 * Persian click-by-click upload guide: `CMS_UPLOAD_GUIDE.md`.
+* Persian editorial with step-by-step hints: `editorial/editorial-fa.pdf` (source `editorial/editorial-fa.md`, figures from `editorial/figures.py`, build with `editorial/build_pdf.sh`).
 
 ## Intended solution — O(nm)
 

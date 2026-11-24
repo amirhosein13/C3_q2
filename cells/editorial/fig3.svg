@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456 324" width="456" height="324" font-family="DejaVu Sans, sans-serif">
+<defs><pattern id="h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#c9c9c9" stroke-width="3"/></pattern></defs>
+<rect x="30" y="30" width="44" height="44" fill="#ffd54a" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="74" y="30" width="44" height="44" fill="#ffd54a" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="118" y="30" width="44" height="44" fill="#ffd54a" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="162" y="30" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="206" y="30" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="250" y="30" width="44" height="44" fill="#d8ecff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="294" y="30" width="44" height="44" fill="url(#h)" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="338" y="30" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="382" y="30" width="44" height="44" fill="url(#h)" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="30" y="74" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="74" y="74" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="118" y="74" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="162" y="74" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="206" y="74" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="250" y="74" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="294" y="74" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="338" y="74" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="382" y="74" width="44" height="44" fill="url(#h)" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="30" y="118" width="44" height="44" fill="url(#h)" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="74" y="118" width="44" height="44" fill="url(#h)" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="118" y="118" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="162" y="118" width="44" height="44" fill="#d8ecff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="206" y="118" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="250" y="118" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="294" y="118" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="338" y="118" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="382" y="118" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="30" y="162" width="44" height="44" fill="url(#h)" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="74" y="162" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="118" y="162" width="44" height="44" fill="#d8ecff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="162" y="162" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="206" y="162" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="250" y="162" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="294" y="162" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="338" y="162" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="382" y="162" width="44" height="44" fill="url(#h)" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="30" y="206" width="44" height="44" fill="url(#h)" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="74" y="206" width="44" height="44" fill="url(#h)" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="118" y="206" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="162" y="206" width="44" height="44" fill="#3b3f46" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="206" y="206" width="44" height="44" fill="url(#h)" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="250" y="206" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="294" y="206" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="338" y="206" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="382" y="206" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="30" y="250" width="44" height="44" fill="url(#h)" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="74" y="250" width="44" height="44" fill="url(#h)" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="118" y="250" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="162" y="250" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="206" y="250" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="250" y="250" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="294" y="250" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="338" y="250" width="44" height="44" fill="#ffffff" stroke="#9aa0a6" stroke-width="1"/>
+<rect x="382" y="250" width="44" height="44" fill="#ffd54a" stroke="#9aa0a6" stroke-width="1"/>
+<polyline points="49.0,49.0 93.0,49.0 137.0,49.0 181.0,49.0 225.0,49.0 269.0,49.0 269.0,93.0 269.0,137.0 269.0,181.0 313.0,181.0 313.0,225.0 357.0,225.0 401.0,225.0 401.0,269.0" fill="none" stroke="#d93025" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" opacity="0.9" />
+<polyline points="55.0,55.0 99.0,55.0 143.0,55.0 143.0,99.0 143.0,143.0 187.0,143.0 231.0,143.0 275.0,143.0 275.0,187.0 275.0,231.0 275.0,275.0 319.0,275.0 363.0,275.0 407.0,275.0" fill="none" stroke="#188038" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" opacity="0.9" />
+<circle cx="272.0" cy="140.0" r="13.2" fill="none" stroke="#8e24aa" stroke-width="4"/>
+<circle cx="272.0" cy="184.0" r="13.2" fill="none" stroke="#8e24aa" stroke-width="4"/>
+<path d="M126,170 L154,198 M154,170 L126,198" stroke="#d32f2f" stroke-width="5"/>
+<text x="156" y="176" font-size="13" font-weight="bold" text-anchor="end" fill="#111">a</text>
+<text x="200" y="132" font-size="13" font-weight="bold" text-anchor="end" fill="#111">c</text>
+<text x="68" y="44" font-size="13" font-weight="bold" text-anchor="end" fill="#111">s</text>
+<text x="420" y="264" font-size="13" font-weight="bold" text-anchor="end" fill="#111">t</text>
+</svg>
